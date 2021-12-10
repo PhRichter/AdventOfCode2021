@@ -11,5 +11,5 @@ Alle Ideen und Lösungskonzepte der einzelnen [Rätsel](https://adventofcode.com
   <li>Tag 07: </li>
   <li>Tag 08: </li>
   <li>Tag 09: Rekursion</li>
-  <li>Tag 10: Stack</li>
+  <li>Tag 10: Es soll überprüft werden, ob alle geöffneten Klammern auch wieder geschlossen werden. Es kann immer nur die letzte geöffnete Klammer geschlossen werden, daher ist nur unmittelbar diese Klammer für die Betrachtung relevant. Hier bietet sich ein Stack an, welchen ich als String realisiert habe. Die einzigen verändernden Operationen sind das Hinzufügen eines Elements ans Ende des Strings und das Löschen des letzten Elements (ausgeführt als Kopieren des gesamten Strings mit Ausnahme des letzten Elementes und Überschreiben des aktuellen Strings). Wenn eine Klammersequenz fehlerhaft ist, passen die schließende Klammer und das aktuelle Element des Stacks nicht zusammen. Ist eine Sequenz unvollständig, bleiben am Ende Elemente im Stack zurück. </li>
 </ul>
