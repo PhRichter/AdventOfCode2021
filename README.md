@@ -1,4 +1,7 @@
 ### Konzepte
 
-Tag 09: Rekursion
-Tag 10: Stack
+Alle Ideen und Lösungskonzepte der einzelnen Ratsel auf einem Blick.
+<ul>
+  <li>Tag 09: Rekursion</li>
+  <li>Tag 10: Stack</li>
+</ul>
