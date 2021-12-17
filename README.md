@@ -18,4 +18,5 @@ Alle Ideen und Lösungskonzepte der einzelnen [Rätsel](https://adventofcode.com
   <li>Tag 14: </li>
   <li>Tag 15: Dijkstra</li>
   <li>Tag 16: Parser</li>
+  <li>Tag 17: In Teil 1 ist v_x irrelevant. Die kann beliebig sein mit der Einschränkung, dass v_x=0 über dem Zielgebiet sein muss. Am höchsten Punkt gilt v_y=0 und dann ist an jeder y-Position die Geschwindigkeit nach oben v_y und nach unten -v_y. Die Eintrittstiefe wird also nur von v_y_init bestimmt und wird auf die maximale Tiefe des Zielgebiets gesetzt. Daraus kann die maximale Höhe berechnet werden. Für Teil 2 werden alle möglichen v_x_init berechnet und wie viele Schritte gegangen werden können. Danach bestimme die möglichen v_y_init, mit denen das Zielgebiet erreicht wird<\li>
 </ul>
